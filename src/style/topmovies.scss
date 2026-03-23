@@ -1,0 +1,34 @@
+.movie-grid {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 1em;
+    padding: 10px;
+
+    .movie-card {
+        flex: 0 auto;
+        width: 400px;
+
+        img {
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .star-icon{
+            color: #ffa235;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #666;
+        }
+    }
+}
