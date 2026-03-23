@@ -1,0 +1,35 @@
+
+.recommended-movies-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    
+    .movies-grid {
+        display: flex;
+        gap: 1em;
+        padding: 10px;
+
+        .recommended-card {
+            width: 300px;
+
+            .recommended-image {
+                height: 250px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+
+            .recommended-details {
+                .recommended-heading {
+                    margin: 0;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+
+                .rating {
+                    margin: 5px 0;
+                    font-size: 0.9em;
+                    color: #666;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+.settings {
+    padding: 1rem;
+    background-color: #1b1e25;
+    color: #ffffff;
+
+    &__main {
+        background-color: #1b1e25;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        position: relative;
+
+        .settings__back-link {
+            position: absolute;
+            left: 0;
+        }
+    }
+
+    &__back-link {
+        color: #ffffff;
+        font-size: 1.5rem;
+
+        svg {
+            width: 26px;
+            height: 26px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    &__title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    &__section {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    &__article {
+        width: 90%;
+        margin: auto;
+    }
+
+    &__profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 2rem;
+        background-color: #1b1e25;
+        border-bottom: 1px solid #5f6166;
+
+        &-info {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        &-image {
+            background-color: #1b1e25;
+        }
+
+        &-name {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        &-role {
+            display: block;
+            font-size: 0.9rem;
+            color: #808080;
+            font-weight: normal;
+        }
+    }
+
+    &__account,
+    &__privacy {
+        &-title {
+            font-size: 1.25rem;
+            color: #fff;
+        }
+    }
+
+    &__menu {
+        &-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            background-color: #1b1e25;
+        }
+
+        &-content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        &-icon {
+            background-color: #1b1e25;
+        }
+
+        &-text {
+            font-size: 1.125rem;
+            color: #ffffff;
+            font-weight: 500;
+        }
+    }
+
+    &__arrow {
+        color: #fff;
+        width: 26px;
+        height: 26px;
+        margin-right: -7px;
+    }
+    &__account {
+    
+                            padding-bottom: 1rem;
+                            border-bottom: 1px solid #5f6166;
+                            
+                        
+            
+        }
+
+    }

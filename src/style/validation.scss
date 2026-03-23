@@ -1,0 +1,24 @@
+.error-input {
+    border: 1px solid #ff0000;
+    background-color: #fff2f2;
+}
+
+.error-message,
+.ticket__error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 4px;
+    transform: translateY(-10px);
+    animation: slideDown 0.3s forwards;
+}
+
+.ticket__error {
+    text-align: center;
+}
+
+@keyframes slideDown {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
